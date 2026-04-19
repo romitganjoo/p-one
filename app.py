@@ -22,6 +22,7 @@ from physics.magnetodynamics import (
 )
 from visualizations.field_plots import (
     plot_2d_field, plot_3d_field, plot_trajectory, plot_trajectory_analysis,
+    PALETTE,
 )
 from problems.irodov_presets import get_preset_names, get_preset
 from ai_parser import parse_problem, fallback_scene_from_text
